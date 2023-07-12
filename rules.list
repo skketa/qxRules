@@ -1,0 +1,71 @@
+# Telegram
+HOST-SUFFIX,t.me,proxy
+HOST-SUFFIX,telegram.org,proxy
+IP-CIDR,91.108.0.0/16,proxy
+IP-CIDR,95.161.64.0/20,proxy
+IP-CIDR,149.154.160.0/20,proxy
+
+# Google
+HOST,goo.gl,proxy
+HOST,ocsp.pki.goog,proxy
+HOST-SUFFIX,google.com,proxy
+HOST-SUFFIX,gstatic.com,proxy
+HOST-SUFFIX,google.com.hk,proxy
+HOST-SUFFIX,withgoogle.com,proxy
+HOST-SUFFIX,googleapis-cn.com,proxy
+HOST-SUFFIX,googleusercontent.com,proxy
+HOST-SUFFIX,app-measurement.com,proxy
+HOST-SUFFIX,googletagmanager.com,proxy
+HOST-SUFFIX,google-analytics.com,proxy
+HOST-SUFFIX,doubleclick.net,proxy
+HOST-SUFFIX,googleadservices.com,proxy
+HOST-KEYWORD,adservice.google,proxy
+HOST-KEYWORD,google.co,proxy
+
+# GitHub
+HOST-SUFFIX,github.com,proxy
+HOST-SUFFIX,github.blog,proxy
+HOST-SUFFIX,githubassets.com,proxy
+HOST-SUFFIX,githubusercontent.com,proxy
+
+# YouTube
+HOST-SUFFIX,youtube.com,proxy
+HOST-SUFFIX,googlevideo.com,proxy
+HOST-SUFFIX,ytimg.com,proxy
+HOST-SUFFIX,ggpht.com,proxy
+HOST-SUFFIX,googleapis.com,proxy
+HOST-SUFFIX,googlesyndication.com,proxy
+
+# Apple
+HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com.cn,Apple
+HOST-SUFFIX,apple.cn,Apple
+HOST-SUFFIX,icloud.com,Apple
+HOST-SUFFIX,icloud.com.cn,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
+HOST-SUFFIX,digicert.com,Apple
+HOST-SUFFIX,digicert.cn,Apple
+HOST-SUFFIX,mzstatic.com,Apple
+HOST-SUFFIX,icloud-content.com,Apple
+
+# Microsoft
+HOST-SUFFIX,msn.com,Microsoft
+HOST-SUFFIX,msn.cn,Microsoft
+HOST-SUFFIX,gfx.ms,Microsoft
+HOST-SUFFIX,live.com,Microsoft
+HOST-SUFFIX,bing.com,Microsoft
+HOST-SUFFIX,bing.net,Microsoft
+HOST-SUFFIX,bingapis.com,Microsoft
+HOST-SUFFIX,msedge.net,Microsoft
+HOST-SUFFIX,windows.com,Microsoft
+HOST-SUFFIX,office365.com,Microsoft
+HOST-SUFFIX,office.com,Microsoft
+HOST-SUFFIX,office.net,Microsoft
+HOST-SUFFIX,azure.com,Microsoft
+HOST-SUFFIX,skype.com,Microsoft
+HOST-SUFFIX,outlook.com,Microsoft
+HOST-SUFFIX,microsoft.com,Microsoft
+HOST-SUFFIX,akamaized.net,Microsoft
+HOST-SUFFIX,msftauth.net,Microsoft
+HOST-SUFFIX,microsoftstore.com.cn,Microsoft
+HOST-SUFFIX,microsoftonline.com,Microsoft
