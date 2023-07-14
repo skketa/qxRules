@@ -1,10 +1,3 @@
-# Telegram
-HOST-SUFFIX,t.me,proxy
-HOST-SUFFIX,telegram.org,proxy
-IP-CIDR,91.108.0.0/16,proxy
-IP-CIDR,95.161.64.0/20,proxy
-IP-CIDR,149.154.160.0/20,proxy
-
 # Google
 HOST,goo.gl,proxy
 HOST,ocsp.pki.goog,proxy
@@ -21,13 +14,6 @@ HOST-SUFFIX,doubleclick.net,proxy
 HOST-SUFFIX,googleadservices.com,proxy
 HOST-KEYWORD,adservice.google,proxy
 HOST-KEYWORD,google.co,proxy
-
-# GitHub
-HOST-SUFFIX,github.com,proxy
-HOST-SUFFIX,github.blog,proxy
-HOST-SUFFIX,githubassets.com,proxy
-HOST-SUFFIX,githubusercontent.com,proxy
-
 # YouTube
 HOST-SUFFIX,youtube.com,proxy
 HOST-SUFFIX,googlevideo.com,proxy
@@ -35,7 +21,17 @@ HOST-SUFFIX,ytimg.com,proxy
 HOST-SUFFIX,ggpht.com,proxy
 HOST-SUFFIX,googleapis.com,proxy
 HOST-SUFFIX,googlesyndication.com,proxy
-
+# GitHub
+HOST-SUFFIX,github.com,proxy
+HOST-SUFFIX,github.blog,proxy
+HOST-SUFFIX,githubassets.com,proxy
+HOST-SUFFIX,githubusercontent.com,proxy
+# Telegram
+HOST-SUFFIX,t.me,proxy
+HOST-SUFFIX,telegram.org,proxy
+IP-CIDR,91.108.0.0/16,proxy,no-resolve
+IP-CIDR,95.161.64.0/20,proxy,no-resolve
+IP-CIDR,149.154.160.0/20,proxy,no-resolve
 # Apple
 HOST-SUFFIX,apple.com,Apple
 HOST-SUFFIX,apple.com.cn,Apple
@@ -47,7 +43,6 @@ HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,digicert.cn,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST-SUFFIX,icloud-content.com,Apple
-
 # Microsoft
 HOST-SUFFIX,msn.com,Microsoft
 HOST-SUFFIX,msn.cn,Microsoft
